@@ -1,5 +1,5 @@
 #
-# UMIDIGI F1 Play
+# UMIDIGI F2
 #
 /boot_para	    emmc	/dev/block/platform/bootdevice/by-name/boot_para
 /recovery	    emmc	/dev/block/platform/bootdevice/by-name/recovery         flags=display="Recovery";backup=1
