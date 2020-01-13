@@ -57,6 +57,6 @@ Network | Bands
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch omni_f1_play-eng
-mka recoveryimage
+lunch omni_f2-eng
+make clean && make recoveryimage
 ```
