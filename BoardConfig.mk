@@ -15,10 +15,10 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Platform
-TARGET_BOARD_PLATFORM := mt6771t
+TARGET_BOARD_PLATFORM := mt6771
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := mt6771t
+TARGET_BOOTLOADER_BOARD_NAME := mt6771
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -87,7 +87,7 @@ TW_NO_SCREEN_BLANK := true
 TW_NO_BATT_PERCENT := false
 
 # Crypto
-TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO := false
 TW_CRYPTO_FS_TYPE := "ext4"
 TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/bootdevice/by-name/userdata"
 TW_CRYPTO_MNT_POINT := "/data"
