@@ -28,10 +28,11 @@
 /logo		    emmc	/dev/block/platform/bootdevice/by-name/logo             flags=display="Logo";backup=1;flashimg=1
 /tee1		    emmc	/dev/block/platform/bootdevice/by-name/tee1             flags=display="Tee";backup=1;flashimg=1
 /tee2		    emmc	/dev/block/platform/bootdevice/by-name/tee2             flags=backup=1;subpartitionof=/tee1         
-/system		    ext4	/dev/block/platform/bootdevice/by-name/system
-/system_image	    emmc	/dev/block/platform/bootdevice/by-name/system
+# Android 10 = /system and /vendor in "super" partition. Not yet compatible.
+# /system		    ext4	/dev/block/platform/bootdevice/by-name/system
+# /system_image	    emmc	/dev/block/platform/bootdevice/by-name/system
+# /vendor             ext4        /dev/block/platform/bootdevice/by-name/vendor
 /cache		    ext4	/dev/block/platform/bootdevice/by-name/cache
 /data		    ext4	/dev/block/platform/bootdevice/by-name/userdata         flags=encryptable=/dev/block/platform/bootdevice/by-name/metadata
-/vendor             ext4        /dev/block/platform/bootdevice/by-name/vendor
 /external_sd	    auto	/dev/block/mmcblk1p1	/dev/block/mmcblk1              flags=display="External SDcard";storage;wipeingui;removable;backup=0
 /usbotg		    auto        /dev/block/sda1		/dev/block/sda                  flags=display="Usb-Otg";storage;removable;backup=0
