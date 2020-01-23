@@ -1,5 +1,9 @@
 # TWRP device tree for UMIDIGI F2
 
+Please do not report issues with flashing (bootloops) as it isn't related to TWRP (it works fine, I assure you). Flashing stuff on the F2 causes bootloops if you do not follow the procedure perfectly.
+Procedure and discussion about your issues in this XDA Thread :
+https://forum.xda-developers.com/android/development/guide-rooting-umidigi-f2-t4030407
+
 ## About Device
 
 ![UMIDIGI F2](https://www.umidigi.com/new/Images/f2/blue-f2.png)
